@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.python-version
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# Packaging
+build/
+dist/
+*.egg-info/
+
+# Tests and local tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.DS_Store
+.idea/
+.vscode/
+
+# Data, checkpoints, and experiment outputs
+data/
+datasets/
+outputs/
+runs/
+wandb/
+checkpoints/
+artifacts/
+logs/
+*.log
+*.out
+*.err
+slurm-*.out
+wandb*.csv
+wandb.json
+
+# Model weights and large binaries
+*.pt
+*.pth
+*.bin
+*.ckpt
+*.safetensors
+*.onnx
+
+# Local caches
+.cache/
+.hf/
+huggingface/
+tokenized/
